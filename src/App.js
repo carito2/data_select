@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+//Imports components
+import Header from './components/Header';
+import Tables from './components/Tables';
+import Selection from './components/Selection';
+import Results from './components/Results';
+//Import CSS
 import './App.css';
 
 function App() {
+  const [tableSelect, setTableSelect] = useState([]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main className='mainData flex'>
+        <Tables tableSelect={tableSelect} setTableSelect={setTableSelect}/>
+        <Selection tableSelect={tableSelect} setTableSelect={setTableSelect} />
+        <Results tableSelect={tableSelect} setTableSelect={setTableSelect}/>
+      </main>
+      
     </div>
   );
 }

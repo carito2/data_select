@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Proyecto Data Select
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto de ReactJS llamado "Data Select". Es una aplicación básica que utiliza React para mostrar y seleccionar datos. Puedes usar este proyecto como punto de partida para desarrollar aplicaciones más complejas.
 
-## Available Scripts
+## Requisitos Previos
 
-In the project directory, you can run:
+Asegúrate de tener Node.js instalado en tu sistema. Puedes descargarlo desde [Node.js](https://nodejs.org/).
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio en tu máquina local:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/tu-usuario/data-select.git
+```
 
-### `npm test`
+2. Navega al directorio del proyecto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd data-select
+```
 
-### `npm run build`
+3. Instala las dependencias del proyecto utilizando npm o yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+# O
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ejecución
+Para ejecutar la aplicación en tu entorno de desarrollo, utiliza el siguiente comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+# O
+yarn start
+```
 
-### `npm run eject`
+Esto iniciará la aplicación en modo de desarrollo. Puedes abrir tu navegador en http://localhost:3000 para ver la aplicación en funcionamiento. La página se recargará automáticamente si realizas cambios en el código fuente.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Scripts disponibles
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+En el directorio del proyecto, puedes ejecutar los siguientes scripts:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **`npm start`** o **`yarn start`**: Inicia la aplicación en modo de desarrollo.
+- **`npm build`** o **`yarn build`**: Genera una versión optimizada de producción de la aplicación en la carpeta "build".
+- **`npm test`** o **`yarn test`**: Inicia el modo de prueba interactivo.
+- **`npm eject`** o **`yarn eject`**: **Nota: Este comando es irreversible y se utiliza para "expulsar" las configuraciones de React para una personalización avanzada.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Configuración ESLint
 
-## Learn More
+Este proyecto utiliza ESLint para mantener un código limpio y consistente. Puedes personalizar las reglas de ESLint según tus preferencias en el archivo .eslintrc.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Compatibilidad de Navegadores
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+El proyecto está configurado para ser compatible con una variedad de navegadores en ambientes de producción. Puedes ajustar la configuración de navegadores en el archivo package.json en la sección "browserslist".
 
-### Code Splitting
+## Contribuciones
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Si deseas contribuir al proyecto, siéntete libre de hacerlo. Abre un "pull request" con tus mejoras o soluciones a problemas, y estaré encantado de revisarlas.
 
-### Analyzing the Bundle Size
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT. Puedes encontrar más información en el archivo LICENSE.

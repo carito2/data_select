@@ -1,0 +1,43 @@
+.selection {
+    background-color:#ffffff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-right: 3.8rem;
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.selection .boxSelection {
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 83%;
+    margin: 1.25rem 0;
+}
+
+.boxSelection .tableSelect {
+    align-items: center;
+    background-color: #000000;
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff;
+    height: 4rem;
+    justify-content: center;
+    list-style: none;
+    overflow-y: scroll;
+}
+
+.selection .button{
+    height: 6%;
+    width: 100%;
+}
+
+.selection .button:active{
+    animation: clickAnimation 2s;
+}
+
+@keyframes clickAnimation {
+  0% {
+    background-color: initial;
+  }
+  100% {
+    background-color: red;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0rem 3.8rem;
+    width: 100vw;
+}
+
+.header .logoBox{
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 5rem;
+    justify-content: center;
+    width: 5rem;
+}
+
+.logo {
+    height: 25%;
+    width: 94%;
+}

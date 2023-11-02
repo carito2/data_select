@@ -1,0 +1,18 @@
+{
+  "tables": [
+    {
+      "name": "Tabla 1",
+      "id": "uid-1"
+    },
+    {
+      "name": "Tabla 2",
+      "id": "uid-2"
+    },
+    {
+      "name": "Tabla 3",
+      "id": "uid-3"
+    }
+  ],
+  "requests": [],
+  "results": []
+}

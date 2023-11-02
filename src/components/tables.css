@@ -1,0 +1,39 @@
+.tables {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-right: 3.8rem;
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.tables .boxTables {
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 92%;
+    margin-top: 1.25rem;
+}
+
+.boxTables .tableList {
+    align-items: center;
+    background-color: #000000;
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    height: 4rem;
+    justify-content: center;
+    list-style: none;
+    overflow-y: scroll;
+}
+
+.boxTables .tableList.clickMe:active {
+   animation: clickAnimation 2s;
+}
+
+@keyframes clickAnimation {
+  0% {
+    background-color: initial;
+  }
+  100% {
+    background-color: red;
+  }
+}
