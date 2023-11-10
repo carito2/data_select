@@ -31,7 +31,7 @@ function Results({ tableSelect, setTableSelect }) {
         console.log(request);
         console.log(Object.keys(request).length > 0);
         if(Object.keys(request).length > 0) {
-            fetch('http://localhost:3030/request', {
+            fetch('https://data-select-server.onrender.com/request', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -72,7 +72,7 @@ function Results({ tableSelect, setTableSelect }) {
         console.log(result);
         console.log(Object.keys(result).length > 0);
         if(Object.keys(result).length > 0) {
-            fetch('http://localhost:3030/result', {
+            fetch('https://data-select-server.onrender.com/result', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
