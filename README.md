@@ -31,6 +31,7 @@ Para ejecutar la aplicación en tu entorno de desarrollo, utiliza el siguiente c
 
 ```bash
 npm start
+```
 
 Esto iniciará la aplicación en modo de desarrollo. Puedes abrir tu navegador en http://localhost:3000 para ver la aplicación en funcionamiento. La página se recargará automáticamente si realizas cambios en el código fuente.
 
