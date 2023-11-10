@@ -50,6 +50,11 @@ app.get('/tables', (req, res) => {
     res.send(tables);
 })
 //Request
+app.get('/requests', (req, res) => {
+  const requests = db.data.requests;
+  res.send(requests);
+})
+
 app.post('/request',express.json(), (req, res) => {
     console.log(req.body);
     db.data.requests.push(req.body);
@@ -57,6 +62,11 @@ app.post('/request',express.json(), (req, res) => {
     res.status(200).send(req.body);
 })
 //Result
+app.get('/results', (req, res) => {
+  const results = db.data.results;
+  res.send(results);
+})
+
 app.post('/result',express.json(), (req, res) => {
     console.log(req.body);
     db.data.results.push(req.body);
