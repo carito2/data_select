@@ -24,8 +24,6 @@ cd data-select
 
 ```bash
 npm install
-# O
-yarn install
 ```
 
 ## Ejecución
@@ -33,9 +31,6 @@ Para ejecutar la aplicación en tu entorno de desarrollo, utiliza el siguiente c
 
 ```bash
 npm start
-# O
-yarn start
-```
 
 Esto iniciará la aplicación en modo de desarrollo. Puedes abrir tu navegador en http://localhost:3000 para ver la aplicación en funcionamiento. La página se recargará automáticamente si realizas cambios en el código fuente.
 
@@ -43,10 +38,10 @@ Esto iniciará la aplicación en modo de desarrollo. Puedes abrir tu navegador e
 
 En el directorio del proyecto, puedes ejecutar los siguientes scripts:
 
-- **`npm start`** o **`yarn start`**: Inicia la aplicación en modo de desarrollo.
-- **`npm build`** o **`yarn build`**: Genera una versión optimizada de producción de la aplicación en la carpeta "build".
-- **`npm test`** o **`yarn test`**: Inicia el modo de prueba interactivo.
-- **`npm eject`** o **`yarn eject`**: **Nota: Este comando es irreversible y se utiliza para "expulsar" las configuraciones de React para una personalización avanzada.
+- **`npm start`**: Inicia la aplicación en modo de desarrollo.
+- **`npm build`**: Genera una versión optimizada de producción de la aplicación en la carpeta "build".
+- **`npm test`**: Inicia el modo de prueba interactivo.
+- **`npm eject`**: **Nota: Este comando es irreversible y se utiliza para "expulsar" las configuraciones de React para una personalización avanzada.
 
 ## Configuración ESLint
 
