@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 })
 
-app.get('/api/tables', (req, res) => {
+app.get('/tables', (req, res) => {
     const tables = db.data.tables;
     res.send(tables);
 })
