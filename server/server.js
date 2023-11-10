@@ -9,7 +9,7 @@ import cors from 'cors';
 // db.json file path
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const file = join(__dirname, 'db.json');
-
+const port = process.env.PORT || 3030;
 // Configure lowdb to write data to JSON file
 const adapter = new JSONFile(file)
 const defaultData = {
@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 })
 
-app.get('/tables', (req, res) => {
+app.get('/api/tables', (req, res) => {
     const tables = db.data.tables;
     res.send(tables);
 })
@@ -64,7 +64,7 @@ app.post('/result',express.json(), (req, res) => {
     res.status(200).send(req.body);
 })
 
-app.listen(3030, function () {
+app.listen(port, function () {
     console.log('listening on 3030');
 });
 

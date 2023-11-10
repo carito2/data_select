@@ -10,8 +10,11 @@
     "lowdb": "^6.0.1",
     "uuid": "^9.0.0"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "nodemon --ignore 'db.json' server.js"
+    "start": "node server.js"
   },
   "browserslist": {
     "production": [
@@ -26,6 +29,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
     "nodemon": "^3.0.1"
   }
 }
